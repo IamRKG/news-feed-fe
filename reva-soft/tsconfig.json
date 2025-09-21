@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/react/shell-e2e"
+    },
+    {
+      "path": "./apps/react/shell"
+    },
+    {
+      "path": "./apps/react/feed-e2e"
+    },
+    {
+      "path": "./apps/react/feed"
+    }
+  ]
+}
